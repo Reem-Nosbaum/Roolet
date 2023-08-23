@@ -10,11 +10,12 @@
   --whait: rgb(248, 248, 248);
   --light-purple: rgb(186, 186, 248);
   --purple: rgb(124, 124, 248);
+  --light-blue: rgb(62, 62, 248);
   --blue: rgb(0, 0, 248);
 }
 
 .App-header {
-  background-color: var(--blue);
+  background-color: var(--purple);
   height: 45px;
   display: flex;
   flex-direction: column;
