@@ -1,7 +1,8 @@
-import "./App.css";
+import "./style/App.css";
+import NavBar from "./comp/NavBar";
 
 function App() {
-  return <div className="App-header">Roolet - Manage your day -</div>;
+  return <NavBar />;
 }
 
 export default App;
