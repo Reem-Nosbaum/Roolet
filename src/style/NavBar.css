@@ -1,5 +1,4 @@
 .nav-bar {
-  position: relative;
   background-color: var(--purple);
   height: 45px;
   width: 100%;
@@ -7,17 +6,17 @@
   flex-direction: row;
   color: var(--whait);
   position: relative;
-  /* align-items: center;
-  justify-content: center; */
+  align-items: center;
+  justify-content: center;
 }
 
 .home-btn {
   background-color: unset;
-
-  right: 793px;
   height: 100%;
   width: 50px;
   border: none;
+  position: absolute;
+  left: 45px;
 }
 .home-btn:hover {
   background-color: var(--light-purple);
@@ -26,8 +25,8 @@
 
 .menu-btn {
   background-color: unset;
-
-  right: 893px;
+  position: absolute;
+  left: 0px;
   height: 100%;
   width: 50px;
   border: none;

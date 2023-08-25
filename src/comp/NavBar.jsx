@@ -8,6 +8,7 @@ export default function NavBar() {
   }
   return (
     <div className="nav-bar">
+      <h1>Roolet</h1>
       <button className="menu-btn">
         <AiOutlineMenu size={"25px"} />
       </button>
