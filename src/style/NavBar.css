@@ -1,9 +1,39 @@
 .nav-bar {
+  position: absolute;
   background-color: var(--purple);
   height: 45px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  color: var(--whait);
+  position: relative;
   align-items: center;
   justify-content: center;
-  color: var(--whait);
+}
+
+.home-btn {
+  background-color: unset;
+
+  position: relative;
+  right: 793px;
+  height: 100%;
+  width: 50px;
+  border: none;
+}
+.home-btn:hover {
+  background-color: var(--light-purple);
+  cursor: pointer;
+}
+
+.menu-btn {
+  background-color: unset;
+
+  position: relative;
+  right: 893px;
+  height: 100%;
+  width: 50px;
+  border: none;
+}
+.menu-btn:hover {
+  background-color: var(--light-purple);
+  cursor: pointer;
 }
