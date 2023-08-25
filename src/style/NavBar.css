@@ -1,19 +1,19 @@
 .nav-bar {
-  position: absolute;
+  position: relative;
   background-color: var(--purple);
   height: 45px;
+  width: 100%;
   display: flex;
   flex-direction: row;
   color: var(--whait);
   position: relative;
-  align-items: center;
-  justify-content: center;
+  /* align-items: center;
+  justify-content: center; */
 }
 
 .home-btn {
   background-color: unset;
 
-  position: relative;
   right: 793px;
   height: 100%;
   width: 50px;
@@ -27,7 +27,6 @@
 .menu-btn {
   background-color: unset;
 
-  position: relative;
   right: 893px;
   height: 100%;
   width: 50px;
