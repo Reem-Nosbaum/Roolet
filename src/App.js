@@ -1,6 +1,6 @@
-import ToDoList from "./comp/ToDoList";
+import ToDoList from "./components/ToDoList";
 import "./style/App.css";
-import NavBar from "./comp/NavBar";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
