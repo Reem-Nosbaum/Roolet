@@ -4,7 +4,7 @@
 
 .todos {
   height: 85vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
@@ -25,5 +25,6 @@
 
 .welcom {
   top: 70px;
+  left: 50px;
   position: relative;
 }
